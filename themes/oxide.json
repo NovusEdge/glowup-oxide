@@ -1,0 +1,7 @@
+{
+  "name": "oxide",
+  "extends": "classic",
+  "glyphs": { "read": "░", "search": "▒", "edit": "▓", "shell": "█", "agent": "◆", "plan": "◇" },
+  "spinner": { "words": ["oxidizing", "dithering", "etching", "halftoning", "annealing", "tempering", "bleaching", "rusting"] },
+  "band": { "hearts": ["■", "□"] }
+}

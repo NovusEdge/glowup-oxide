@@ -1,20 +1,20 @@
 {
   "format": 1,
   "name": "oxide",
-  "description": "bone and red oxide on warm ink, with a dithered orb",
+  "description": "bone and red oxide on warm ink, dithered glyphs, oxide frames",
   "colors": {
-    "theme": "classic",
+    "theme": "oxide",
     "palette": {
-      "accent": "#d0573a",
-      "text": "#ddd6c8",
-      "dim": "#a39a8c",
-      "faint": "#736a60",
-      "read": "#6a95e0",
+      "accent": "#e0703a",
+      "text": "#e8dcc4",
+      "dim": "#b0a184",
+      "faint": "#a3533a",
+      "read": "#5b8cf0",
       "edit": "#c9973f",
       "shell": "#9aa55a",
       "agent": "#4fb3a5",
       "pass": "#9aa55a",
-      "fail": "#e0485f",
+      "fail": "#e2343c",
       "panel": "#201a16",
       "addBg": "#24301e",
       "delBg": "#3d1e1a",
@@ -22,14 +22,15 @@
     },
     "bg": "#15110e",
     "rows": "cards",
-    "border": "single",
-    "borderColor": "#736a60",
-    "gradient": ["#d0573a", "#c9973f"],
-    "rowFlags": { "labels": false, "markers": true }
+    "border": "bold",
+    "borderColor": "#e0703a",
+    "gradient": ["#e0703a", "#e8dcc4"],
+    "extras": { "hp": true, "combo": true },
+    "rowFlags": { "labels": false, "xp": true }
   },
   "motion": {
     "spinner": "orb-states",
-    "shimmer": 1,
-    "color": "#d0573a"
+    "shimmer": 2,
+    "color": "#e0703a"
   }
 }
