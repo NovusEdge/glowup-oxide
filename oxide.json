@@ -26,11 +26,14 @@
     "borderColor": "#e0703a",
     "gradient": ["#e0703a", "#e8dcc4"],
     "extras": { "hp": true, "combo": true },
-    "rowFlags": { "labels": false, "xp": true }
+    "rowFlags": { "labels": false, "xp": true },
+    "meters": "dither",
+    "dividers": true
   },
   "motion": {
     "spinner": "orb-states",
     "shimmer": 2,
-    "color": "#e0703a"
+    "color": "#e0703a",
+    "field": "warp"
   }
 }
