@@ -13,7 +13,7 @@ The glyphs, hearts and spinner words live in a theme file, which a pack cannot c
 
 ### The renderer plugin
 
-This repo is also a Claude Code plugin that draws the parts a pack file cannot: a warp-dithered field that drifts through the docked pane's open rows, dithered 5-hour and weekly meters in place of the HP bar, and a numbered `░▒▓━━ 03 ━━━▓▒░` rule above each of your prompts. It answers only while the `oxide` pack is on and needs a glowup release with renderer plugins (the version after 0.5.0).
+This repo is also a Claude Code plugin that draws the parts a pack file cannot: a warp-dithered field that drifts through the docked pane's open rows, dithered 5-hour and weekly meters in place of the HP bar, and a numbered `░▒▓━━ 03 ━━━▓▒░` rule above each of your prompts. It answers only while the `oxide` pack is on and needs glowup 0.6.0 or later.
 
 ```
 /plugin marketplace add NovusEdge/glowup-oxide
