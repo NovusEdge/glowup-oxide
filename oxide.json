@@ -34,6 +34,6 @@
     "spinner": "orb-states",
     "shimmer": 2,
     "color": "#e0703a",
-    "field": "warp"
+    "field": { "shape": "simplex", "speed": 0.28, "scale": 0.32, "rotation": 96, "offsetX": -0.22, "offsetY": 0.12, "size": 3, "dither": "4x4" }
   }
 }
