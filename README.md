@@ -11,6 +11,19 @@ The glyphs, hearts and spinner words live in a theme file, which a pack cannot c
 /glowup pack https://raw.githubusercontent.com/NovusEdge/glowup-oxide/main/oxide.json
 ```
 
+### The renderer plugin
+
+This repo is also a Claude Code plugin that draws the parts a pack file cannot: a warp-dithered field that drifts through the docked pane's open rows, dithered 5-hour and weekly meters in place of the HP bar, and a numbered `░▒▓━━ 03 ━━━▓▒░` rule above each of your prompts. It answers only while the `oxide` pack is on and needs a glowup release with renderer plugins (the version after 0.5.0).
+
+```
+/plugin marketplace add NovusEdge/glowup-oxide
+/plugin install glowup-oxide@glowup-oxide
+```
+
+The field runs on glowup's timer and holds still under `/glowup motion reduced`.
+
+### Light variant
+
 `oxide` works on any dark terminal. `oxide-paper` is the light inverse, ink on bone, and needs the terminal background set to `#ddd6c8`, because glowup colors text and never paints a background. In Konsole, `/glowup export konsole` writes a matching scheme.
 
 ```
