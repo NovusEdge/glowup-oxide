@@ -1,10 +1,10 @@
 # oxide
 
-A [glowup](https://github.com/NovusEdge/glowup) pack: bone text and red oxide on warm ink. A warp-dithered field drifts through the docked pane's open rows, the 5-hour and weekly usage show as dithered bars, and a numbered `░▒▓━━ 03 ━━━▓▒░` rule sits above each of your prompts. Every pane frame and card border is oxide, tool rows use a dither ramp (`░ ▒ ▓ █`), and the dotted `orb-states` spinner cycles words like "annealing" and "etching". Tool colors are the riso blue, ochre, olive and goggle teal from the reference images, tuned until each one reads at 3:1 or better on the background.
+A [glowup](https://github.com/NovusEdge/glowup) pack: bone text and red oxide on warm ink. A simplex-dithered field drifts through the docked pane's open rows, the 5-hour and weekly usage show as dithered bars, and a numbered `░▒▓━━ 03 ━━━▓▒░` rule sits above each of your prompts. Every pane frame and card border is oxide, tool rows use a dither ramp (`░ ▒ ▓ █`), and the dotted `orb-states` spinner cycles words like "annealing" and "etching". Tool colors are the riso blue, ochre, olive and goggle teal from the reference images, tuned until each one reads at 3:1 or better on the background.
 
 ## Install
 
-Needs glowup 0.7.0 or later, which draws the field, meters and dividers the pack switches on. The glyphs, hearts and spinner words live in a theme file, which a pack cannot carry, so install the theme first:
+Needs glowup 0.8.0 or later, which draws the field, meters and dividers the pack switches on. The glyphs, hearts and spinner words live in a theme file, which a pack cannot carry, so install the theme first:
 
 ```
 /glowup theme add https://raw.githubusercontent.com/NovusEdge/glowup-oxide/main/themes/oxide.json
