@@ -1,0 +1,35 @@
+{
+  "format": 1,
+  "name": "oxide",
+  "description": "red oxide and ink on bone, with a dithered orb",
+  "colors": {
+    "theme": "classic",
+    "palette": {
+      "accent": "#9a3a1c",
+      "text": "#17120f",
+      "dim": "#4f4a43",
+      "faint": "#766c63",
+      "read": "#1652b0",
+      "edit": "#7a5518",
+      "shell": "#56602a",
+      "agent": "#2a6b63",
+      "pass": "#56602a",
+      "fail": "#a51d34",
+      "panel": "#d2cbbc",
+      "addBg": "#c4cdb0",
+      "delBg": "#e6bfb2",
+      "sel": "#c6bead"
+    },
+    "bg": "#ddd6c8",
+    "rows": "cards",
+    "border": "single",
+    "borderColor": "#766c63",
+    "gradient": ["#9a3a1c", "#7a5518"],
+    "rowFlags": { "labels": false, "markers": true }
+  },
+  "motion": {
+    "spinner": "orb-states",
+    "shimmer": 1,
+    "color": "#9a3a1c"
+  }
+}
